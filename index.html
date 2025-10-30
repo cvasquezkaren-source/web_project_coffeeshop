@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafeteria</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/stayle.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./image/logo_coffeeshop_dark.svg"
+            alt="logotipo"
+            class="nav_logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recetas">recetas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reserva">reserva una mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contactos">contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title noto-serif">café de especialidad</h1>
+            <h1>en triple peaks</h1>
+            <p class="header__description">
+              ¡te damos la bienvenida a nuestra zona de estudio!¡Aquí tenemos
+              cafe para darte energia y motivar tu creatividad!
+            </p>
+          </div>
+          <img
+            src="./image/inside_coffee_shop.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <h3 class="header__footer">Horarios</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              Lunea a viernes (de 10:00h a 19:00h)
+            </li>
+            <li>sabados y domingos (de 11:00h a 18:00h)</li>
+          </ul>
+          <p class="header__address">
+            Avenida del Exito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="Recetas">
+          <h2 class="Recetas__title">Recetas</h2>
+          <p class="Recetas__subtitle">
+            Echa un vistazo a las recetas que hemos reunidos para que elabores
+            tus propios snacks
+          </p>
+          <div>
+            <div>
+              <h3>Receta en Aeropress</h3>
+              <p>~5 min</p>
+            </div>
+            <div>
+              <h3>Receta en cafetera francesa</h3>
+              <p>~15 min</p>
+            </div>
+          </div>
+        </section>
+        <section class="reservation">
+          <h2 class="reservation__title">Reserva una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="reservation__fieldset">
+              <label class="reservation__label" for="name">Nombre *</label>
+              <input
+                class="reservation__input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nombre"
+                required
+              />
+
+              <label class="reservation__label" for="guests"
+                >Número de comensales *</label
+              >
+              <input
+                class="reservation__input"
+                type="number"
+                id="guests"
+                name="guests"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+              />
+
+              <label class="reservation__label" for="date"
+                >Fecha y hora *</label
+              >
+              <input
+                class="reservation__input"
+                type="date"
+                id="date"
+                name="date"
+                value="dd/mm/aaaa"
+                required
+              />
+
+              <label class="reservation__label" for="email"
+                >Tu correo electrónico *</label
+              >
+              <input
+                class="reservation__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+
+              <button class="reservation__button" type="submit">
+                Reservar una mesa
+              </button>
+
+              <label class="reservation__checkbox-label">
+                <input
+                  class="reservation__checkbox"
+                  type="checkbox"
+                  name="terms"
+                  required
+                />
+                Acepto los términos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__column">
+          <img
+            src="./image/logo_coffeeshop_light.svg"
+            alt="logotipo"
+            class="footer_log"
+          />
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    src="./image/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    src="./image/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 [Karen Cuellar Vasquz]</p>
+      </footer>
+    </div>
+  </body>
+</html>
