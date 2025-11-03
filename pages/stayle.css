@@ -110,7 +110,7 @@
   background-size: cover;
 }
 .reservation {
-  background-color: #d9e7ff; /* Fondo azul claro como en tu imagen */
+  background-color: #d9e7ff;
   padding: 100px 80px;
   background-image: url("./image/background_reservation.svg");
   background-repeat: no-repeat;
@@ -127,7 +127,6 @@
   margin: 0 0 80px;
 }
 
-/* Contenedor del formulario */
 .reservation__form {
   max-width: 385px;
   margin: 0 auto;
@@ -139,7 +138,6 @@
   margin: 0;
 }
 
-/* Estilos para las etiquetas */
 .reservation__label {
   display: block;
   font-family: "Inter", Arial, sans-serif;
@@ -149,7 +147,6 @@
   margin-bottom: 8px;
 }
 
-/* Estilos para los campos de entrada */
 .reservation__input {
   width: 100%;
   height: 60px;
