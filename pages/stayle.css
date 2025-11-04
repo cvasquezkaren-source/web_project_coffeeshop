@@ -8,7 +8,7 @@
 }
 
 .header {
-  background-image: url("./image/background_header");
+  background-image: url("./images/background_header");
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -105,14 +105,14 @@
 .Recetas {
   background-color: #2f80ed;
   padding: 100px 0 140px;
-  background-image: url(".image/background_recipes.svg");
+  background-image: url(".images/background_recipes.svg");
 
   background-size: cover;
 }
 .reservation {
   background-color: #d9e7ff;
   padding: 100px 80px;
-  background-image: url("./image/background_reservation.svg");
+  background-image: url("./images/background_reservation.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
