@@ -110,11 +110,11 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reserva una mesa</h2>
-          <form class="reservation__form">
-            <fieldset class="reservation__fieldset">
-              <label class="reservation__label" for="name">Nombre *</label>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nombre *</label>
               <input
-                class="reservation__input"
+                class="form__input"
                 type="text"
                 id="name"
                 name="name"
@@ -122,11 +122,11 @@
                 required
               />
 
-              <label class="reservation__label" for="guests"
+              <label class="form__label" for="guests"
                 >Número de comensales *</label
               >
               <input
-                class="reservation__input"
+                class="form__input"
                 type="number"
                 id="guests"
                 name="guests"
@@ -136,11 +136,9 @@
                 required
               />
 
-              <label class="reservation__label" for="date"
-                >Fecha y hora *</label
-              >
+              <label class="form__label" for="date">Fecha y hora *</label>
               <input
-                class="reservation__input"
+                class="form__input"
                 type="date"
                 id="date"
                 name="date"
@@ -148,11 +146,11 @@
                 required
               />
 
-              <label class="reservation__label" for="email"
+              <label class="form__label" for="email"
                 >Tu correo electrónico *</label
               >
               <input
-                class="reservation__input"
+                class="form__input"
                 type="email"
                 id="email"
                 name="email"
@@ -160,13 +158,13 @@
                 required
               />
 
-              <button class="reservation__button" type="submit">
+              <button class="form__button" type="submit">
                 Reservar una mesa
               </button>
 
-              <label class="reservation__checkbox-label">
+              <label class="form__checkbox-label">
                 <input
-                  class="reservation__checkbox"
+                  class="form__checkbox"
                   type="checkbox"
                   name="terms"
                   required
