@@ -30,21 +30,3 @@
   padding-top: 24px;
   margin-bottom: 215px;
 }
-.inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-size: 44px;
-  font-style: normal;
-  line-height: 52px;
-  color: #ffffff;
-}
-.inter1 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #fff;
-}
