@@ -6,3 +6,33 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
+  color: #2f80ed;
+}
+.noto-serif1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #000000;
+}
+.noto-serif2 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #fff;
+}
+.content {
+  padding-top: 100px;
+}
