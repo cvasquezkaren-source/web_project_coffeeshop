@@ -5,11 +5,11 @@
   padding: 60px 80px;
 }
 
-.footer__columns {
+.footer__content {
   display: flex;
   justify-content: space-between;
 }
-.footer__social {
+.footer__content_content_social {
   align-items: flex-start;
   margin: 0 0 20px;
   font-size: 16px;
