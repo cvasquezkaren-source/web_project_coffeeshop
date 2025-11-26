@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
 }
-.footer_social {
+.footer__social {
   align-items: flex-start;
   margin: 0 0 20px;
   font-size: 16px;
