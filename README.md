@@ -31,4 +31,4 @@ Este proyecto es una página web para una cafetería que presenta información s
 
 ## Autor
 
-[Karen Cuellar Vasquez]
+[Karen Dayana Cuellar Vasquez]
